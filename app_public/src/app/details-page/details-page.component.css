@@ -1,0 +1,15 @@
+dl dd
+{
+    color: white;
+}
+dl dt
+{
+    color: white;
+}
+.list
+{
+    float: left;
+    margin-left: 5px;
+    padding: 10px;
+    
+}

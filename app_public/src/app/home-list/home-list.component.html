@@ -1,0 +1,7 @@
+<div *ngFor="let recipe of recipes">
+     <ul>
+         <li ng-repeat="recipe in recipes"><a routerLink='/recipes/{{recipe._id}}'>{{recipe.name}}</a>
+        <span>&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-info"><a routerLink="/recipes/{{recipe._id}}/update">Update</a></button></span>
+        <span>&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-danger" (click)="deleteThisRecipe(recipe._id)">Delete</button></span>
+    </ul>      
+</div>

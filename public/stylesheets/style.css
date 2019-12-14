@@ -1,0 +1,45 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Lobster', cursive;
+}
+nav {
+background-color: #000000;
+border-color: #5d1f5e;
+    
+}
+.navbar-brand {
+font-family: 'Lobster', cursive;
+color: #fff;
+    font-size: 25px;
+}
+
+
+h1 small {
+color: #aaa;
+}
+
+a {
+    font-size: 20px;
+color: rgba(255, 255, 255, 0.8)
+}
+a:hover {
+color:#fff
+}
+
+body {
+   
+font-family: "Cabin", Arial, sans-serif;
+color: #fff;
+    
+}
+div.container
+{
+    padding-top: 15px;
+    background-repeat: no-repeat;
+background-image: url("/public/images/cook-366875__340.jpg");
+height: 900px;
+}
+p
+{
+font-size: 20px;
+}

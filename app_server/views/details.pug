@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p=`Name : ${currentRecipe.name}`
+  p=`Author : ${currentRecipe.author}`
+  p=`Ingredients : ${currentRecipe.ingredients}`
+  p=`Cooking Time :  ${currentRecipe.cookingTime} minutes`
+  p=`Rating : ${currentRecipe.rating} stars`

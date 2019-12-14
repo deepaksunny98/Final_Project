@@ -1,0 +1,47 @@
+<app-header [content]="pageContent.header"></app-header>
+<form  *ngIf="newRecipe" (ngSubmit)="updateRecipe(newRecipe._id)">
+  <table class="table">
+    <tr>
+      <td>
+        <label>Recipe Name: </label>
+      </td>
+      <td>
+        <input [(ngModel)]="newRecipe.name" id="name" type="text" name="name" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Recipe's Author: </label>
+      </td>
+      <td>
+        <input  [(ngModel)]="newRecipe.author" id="author" type="text" name="author" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Recipe Ingredients: </label>
+      </td>
+      <td>
+        <input [(ngModel)]="newRecipe.ingredients" id="ingredients" type="text" name="ingredients" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Recipe Cooking Time: </label>
+      </td>
+      <td>
+        <input [(ngModel)]="newRecipe.cookingTime" id="cookingTime" type="text" name="cookingTime" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Recipe Rating: </label>
+      </td>
+      <td>
+        <input [(ngModel)]="newRecipe.rating" id="rating" type="text" name="rating" />
+      </td>
+    </tr>
+  </table>
+  <button type="button" class="btn btn-success" style="background-color: #28a745" type="submit" value="UPDATE" >UPDATE
+  </button>
+</form>

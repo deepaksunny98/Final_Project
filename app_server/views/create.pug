@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    form(action="", method="post", role="form")
+        table
+            tr
+                td 
+                    label Recipe Name: 
+                td
+                    input(type="text", name="name" )
+            tr
+                td
+                    label Recipe's Author: 
+                td
+                    input(type="text", name="author")
+            tr
+                td
+                    label Recipe Ingredients: 
+                td
+                    input(type="text", name="ingredients")
+            tr
+                td
+                    label Recipe Cooking Time: 
+                td
+                    input(type="text", name="cookingTime")
+            tr
+                td
+                    label Recipe Rating: 
+                td
+                    input(type="text", name="rating")
+        btn
+            input(type="submit", value="SUBMIT")

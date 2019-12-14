@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+h1, h2, h3, h4, h5, h6 {
+color: white;
+font-family: 'Lobster', cursive;
+}
+nav {
+background-color: #000000;
+    
+}
+.navbar-brand {
+font-family: 'Lobster', cursive;
+color: #fff;
+    font-size: 40px;
+}
+
+
+.nav-link
+{
+    color: white;
+}
+a {
+    font-size: 20px;
+color: rgba(255, 255, 255, 0.8)
+}
+a:hover {
+color:indianred;
+}
+
+body {
+   
+font-family: "Cabin", Arial, sans-serif;
+color: #fff;
+  background-image:url("assets/cook-366875_1920.jpg");  
+}
+.container
+{
+    padding-top: 15px;
+    background-repeat: no-repeat;
+
+}
+p
+{
+    color: white;
+font-size: 20px;
+}
+ul li
+{
+    color: white;
+}
+
+label
+{
+    color: white;
+}

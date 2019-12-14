@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= "My Delicious Recipes"
+  p Here is the list of recipes
+  
+  ol(type="1")
+    each recipe in recipes
+        li
+            a(href=`/recipes/${recipe._id}`)=recipe.name 
+    else
+        li 'There are no recipes available.'      
+    p 
+        a(href=`/new`) Click here if you want to add a new Recipe.
